@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>תיאטרון בימתיים - המוגבלים</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome icons -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .header {
+            margin: 20px 0;
+        }
+        .header img {
+            width: 40%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+        }
+        .text {
+            margin-top: 20px;
+        }
+        .description-panel {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 10%;
+            text-align: justify;
+        }
+        .panel {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            display: block; /* Make sure panels are visible by default */
+        }
+        .panel.hidden {
+            display: none; /* Hidden panels won't be displayed */
+        }
+        .panel h3 {
+            font-size: 18px;
+            color: #333;
+        }
+        .panel button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .panel button:hover {
+            background-color: #0056b3;
+        }
+        .panel-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .panel-info i {
+            margin-left: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+          <div class="text">
+            <h2>תיאטרון "בימתיים" מציג</h2>
+            <h1>המוגבלים</h1>
+            <h3>קומדיית פשע מאת גורן קורן</h3>
+            <h3>בימוי: מירים לרמן-באר</h3>
+          </div>
+          <div class="description-panel">
+            מה מחבר בין משפחת פשע לקבוצת שחקנים חובבים מוגבלים בדרך למקדוניה?
+                קבוצת תיאטרון של אנשים בעלי מוגבלויות אינה מצליחה לגייס את הכסף הדרוש לצורך ייצוג המדינה בפסטיבל לתיאטרון במקדוניה. לעזרתה נחלצת, באופן מפתיע, משפחת פשע בעלת עסק להברחת סמים שחייבת להבריח משלוח גדול במיוחד למקדוניה.
+            </div>
+          <img src="mugbalim.jpg" alt="Header Image">
+        </div>
+    </div>
+
+    <div id="panel1" class="panel">
+        <h3>המוגבלים</h3>
+        <div class="panel-info">
+            <i class="fas fa-calendar-day"></i>
+            <span>יום רביעי, 19 לפברואר, 20:30</span>
+        </div>
+        <div class="panel-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>סטודיו 24, בית ראשונים, גבעתיים</span>
+        </div>
+        <button onclick="window.open('https://www.eventer.co.il/m1v0f', '_blank')">הזמנת כרטיסים</button>
+    </div>
+
+    <div id="panel2" class="panel">
+        <h3>המוגבלים</h3>
+        <div class="panel-info">
+            <i class="fas fa-calendar-day"></i>
+            <span>יום חמישי, 20 לפברואר, 20:30</span>
+        </div>
+        <div class="panel-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>סטודיו 24, בית ראשונים, גבעתיים</span>
+        </div>
+        <button onclick="window.open('https://www.eventer.co.il/n1v0f', '_blank')">הזמנת כרטיסים</button>
+    </div>
+
+    <div id="panel3" class="panel">
+        <h3>המוגבלים</h3>
+        <div class="panel-info">
+            <i class="fas fa-calendar-day"></i>
+            <span>יום שבת, 22 לפברואר, 20:30</span>
+        </div>
+        <div class="panel-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>סטודיו 24, בית ראשונים, גבעתיים</span>
+        </div>
+        <button onclick="window.open('https://www.eventer.co.il/31v0f', '_blank')">הזמנת כרטיסים</button>
+    </div>
+
+    <div id="panel4" class="panel">
+        <h3>המוגבלים</h3>
+        <div class="panel-info">
+            <i class="fas fa-calendar-day"></i>
+            <span>יום רביעי, 26 לפברואר, 20:30</span>
+        </div>
+        <div class="panel-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>סטודיו 24, בית ראשונים, גבעתיים</span>
+        </div>
+        <button onclick="window.open('https://www.eventer.co.il/8vv0f', '_blank')">הזמנת כרטיסים</button>
+    </div>
+
+    <div id="panel5" class="panel">
+        <h3>המוגבלים</h3>
+        <div class="panel-info">
+            <i class="fas fa-calendar-day"></i>
+            <span>יום חמישי, 27 לפברואר, 20:30</span>
+        </div>
+        <div class="panel-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>סטודיו 24, בית ראשונים, גבעתיים</span>
+        </div>
+        <button onclick="window.open('https://www.eventer.co.il/21v0f', '_blank')">הזמנת כרטיסים</button>
+    </div>
+
+    <div id="panel6" class="panel">
+        <h3>המוגבלים</h3>
+        <div class="panel-info">
+            <i class="fas fa-calendar-day"></i>
+            <span>יום שבת, 1 למרץ, 20:30</span>
+        </div>
+        <div class="panel-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>סטודיו 24, בית ראשונים, גבעתיים</span>
+        </div>
+        <button onclick="window.open('https://www.eventer.co.il/c1v0f', '_blank')">הזמנת כרטיסים</button>
+    </div>
+    
+    <div class="container">
+        <div class="text">
+            <h2>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>היכן?</span>
+            </h2>
+            <div>ההצגות יתקיימו באולם "סטודיו 24" בית ראשונים, גורדון 24, גבעתיים</div>
+            <div>חנייה בתשלום במתחם "פרנדלי בורכוב"</div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.716417151694!2d34.813051823884706!3d32.07691801943389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4bb0d449b9bd%3A0x9eec0ae2e4ce281a!2z15HXmdeqINeo15DXqdeV16DXmded!5e0!3m2!1siw!2sil!4v1738232141164!5m2!1siw!2sil" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to get URL parameter value
+        function getURLParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Get the 'show' parameter from the URL
+        const showParam = getURLParameter('show');
+        
+        if (showParam) {
+            // Split the show parameter into an array of panel numbers
+            const panelsToShow = showParam.split(',');
+
+            // Hide all panels initially
+            document.querySelectorAll('.panel').forEach(panel => {
+                panel.classList.add('hidden');
+            });
+
+            // Show only the panels specified in the 'show' parameter
+            panelsToShow.forEach(panelNumber => {
+                const panel = document.getElementById('panel' + panelNumber);
+                if (panel) {
+                    panel.classList.remove('hidden');
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
